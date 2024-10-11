@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { MdOutlineFileDownload } from "react-icons/md";
-import { FaDownload } from 'react-icons/fa'; // Import the download icon from react-icons
 
 const Dashboard = () => {
   const [imageUrls, setImageUrls] = useState([]);
